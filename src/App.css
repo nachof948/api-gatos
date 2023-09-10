@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh; 
+    background-color: antiquewhite;
+}
+img{
+    max-width: 50rem;
+    max-height: 40rem;
+    object-fit: contain;
+    border-radius: 25px;
+    background-color: aqua;
+}
+.texto{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+button:hover{
+    background-color: transparent;
+    color: black;
+}
